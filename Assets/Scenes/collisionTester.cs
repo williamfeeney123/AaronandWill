@@ -33,10 +33,10 @@ public class collisionTester : MonoBehaviour
 
         if (collision.collider.gameObject == trap)
         {
-            GameObject newBall = Instantiate(spikeTrap, new Vector3(4, 10, 0f), Quaternion.identity);
+            GameObject newBall = Instantiate(spikeTrap, new Vector3(4, 10, 0f), Quaternion.Euler(new Vector3(0,0,180f)));
           
         }
-        if (collision.collider.gameObject == spikeTrap)
+        if (collision.collider.GetComponent <spikeScript> ())
         {
             SceneManager.LoadScene(0);
         }

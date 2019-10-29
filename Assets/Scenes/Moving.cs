@@ -7,13 +7,15 @@ public class Moving : MonoBehaviour
 
     [SerializeField] private LayerMask PlatformsLayerMask;
     public float speed;
-
-    private Rigidbody2D rigidbody2d;
+    public float jumpSpeed;
+    private bool onGround;
+    public Rigidbody2D rigidbody2d;
     private BoxCollider2D boxCollider2d;
     // Start is called before the first frame update
     void Start()
     {
-        speed = 0.03f;
+        speed = .03f;
+   
         rigidbody2d = transform.GetComponent<Rigidbody2D>();
         boxCollider2d = transform.GetComponent<BoxCollider2D>();
     }
@@ -36,19 +38,28 @@ public class Moving : MonoBehaviour
         }
 
 
-        if (IsGrounded() && Input.GetKeyDown(KeyCode.Space))
-        {
-            float jumpVelocity = 10f;
-            rigidbody2d.velocity = Vector2.up * jumpVelocity;
-        }
 
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            if (onGround)
+            {
+                rigidbody2d.AddForce(new Vector2(0f, jumpSpeed), ForceMode2D.Impulse);
+                onGround = false;
+            }
+        }
 
     }
-    private bool  IsGrounded()
+
+    private void OnCollisionStay2D(Collision2D collision)
     {
-        RaycastHit2D raycastHit2d = Physics2D.BoxCast(boxCollider2d.bounds.center, boxCollider2d.bounds.size, 0f, Vector2.down * .1f, PlatformsLayerMask);
-    
-        return raycastHit2d.collider != null;
+        if (collision.gameObject.tag == "Ground")
+        {
+            if (collision.transform.position.y < transform.position.y)
+            {
+                onGround = true;
+            }
         }
+    }
+
 
 }
