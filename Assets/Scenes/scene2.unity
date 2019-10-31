@@ -242,6 +242,7 @@ MonoBehaviour:
   SceneLength: 20
   gravity: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &118459525 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1944284551272105933, guid: 0b7fca36db04db44fa58b36fa8127f99,
@@ -267,6 +268,8 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+=======
+>>>>>>> a005f2b361a4ef44d8b687f5b5f95f617769cfe9
 =======
 >>>>>>> a005f2b361a4ef44d8b687f5b5f95f617769cfe9
 --- !u!1 &194230941
@@ -1078,7 +1081,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: -37.841
+=======
+      value: -39.1
+>>>>>>> a005f2b361a4ef44d8b687f5b5f95f617769cfe9
 =======
       value: -39.1
 >>>>>>> a005f2b361a4ef44d8b687f5b5f95f617769cfe9
@@ -1087,7 +1094,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.y
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: -0.295
+=======
+      value: 1.3
+>>>>>>> a005f2b361a4ef44d8b687f5b5f95f617769cfe9
 =======
       value: 1.3
 >>>>>>> a005f2b361a4ef44d8b687f5b5f95f617769cfe9
@@ -1141,7 +1152,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0.890742
+=======
+      value: 0.4717913
+>>>>>>> a005f2b361a4ef44d8b687f5b5f95f617769cfe9
 =======
       value: 0.4717913
 >>>>>>> a005f2b361a4ef44d8b687f5b5f95f617769cfe9
@@ -1150,7 +1165,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.y
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0.99670273
+=======
+      value: 0.4659667
+>>>>>>> a005f2b361a4ef44d8b687f5b5f95f617769cfe9
 =======
       value: 0.4659667
 >>>>>>> a005f2b361a4ef44d8b687f5b5f95f617769cfe9
@@ -1175,6 +1194,7 @@ PrefabInstance:
       propertyPath: spike
       value: 
       objectReference: {fileID: 1138452081}
+<<<<<<< HEAD
 <<<<<<< HEAD
     - target: {fileID: 1944284551272105923, guid: 0b7fca36db04db44fa58b36fa8127f99,
         type: 3}
@@ -1201,6 +1221,8 @@ PrefabInstance:
       propertyPath: m_Size.x
       value: 2.8834057
       objectReference: {fileID: 0}
+=======
+>>>>>>> a005f2b361a4ef44d8b687f5b5f95f617769cfe9
 =======
 >>>>>>> a005f2b361a4ef44d8b687f5b5f95f617769cfe9
     m_RemovedComponents: []

@@ -260,6 +260,7 @@ BoxCollider2D:
   m_Size: {x: 7.4, y: 0.8}
   m_EdgeRadius: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &486804184 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1944284551272105933, guid: 0b7fca36db04db44fa58b36fa8127f99,
@@ -285,6 +286,8 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+=======
+>>>>>>> a005f2b361a4ef44d8b687f5b5f95f617769cfe9
 =======
 >>>>>>> a005f2b361a4ef44d8b687f5b5f95f617769cfe9
 --- !u!1 &968429708
@@ -617,7 +620,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.y
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: -1.29
+=======
+      value: 1
+>>>>>>> a005f2b361a4ef44d8b687f5b5f95f617769cfe9
 =======
       value: 1
 >>>>>>> a005f2b361a4ef44d8b687f5b5f95f617769cfe9
@@ -688,6 +695,7 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 450709804}
 <<<<<<< HEAD
+<<<<<<< HEAD
     - target: {fileID: 1944284551272105923, guid: 0b7fca36db04db44fa58b36fa8127f99,
         type: 3}
       propertyPath: m_Constraints
@@ -713,6 +721,8 @@ PrefabInstance:
       propertyPath: m_Size.x
       value: 1.713912
       objectReference: {fileID: 0}
+=======
+>>>>>>> a005f2b361a4ef44d8b687f5b5f95f617769cfe9
 =======
 >>>>>>> a005f2b361a4ef44d8b687f5b5f95f617769cfe9
     m_RemovedComponents: []
