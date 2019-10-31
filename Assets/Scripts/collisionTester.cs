@@ -10,7 +10,7 @@ public class collisionTester : MonoBehaviour
     public GameObject spike;
     public GameObject trap;
     public GameObject spikeTrap;
-    
+    public GameObject win;
 
 
 
@@ -39,6 +39,12 @@ public class collisionTester : MonoBehaviour
         if (collision.collider.GetComponent <spikeScript> ())
         {
             SceneManager.LoadScene(0);
+        }
+
+
+        if (collision.collider.gameObject == win)
+        {
+            SceneManager.LoadScene(1);
         }
     }
 
