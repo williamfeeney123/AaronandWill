@@ -14,7 +14,7 @@ public class Moving : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        speed = .03f;
+        speed = .3f;
    
         rigidbody2d = transform.GetComponent<Rigidbody2D>();
         boxCollider2d = transform.GetComponent<BoxCollider2D>();
