@@ -11,6 +11,8 @@ public class collisionTester : MonoBehaviour
     public GameObject trap;
     public GameObject spikeTrap;
     public GameObject win;
+    public GameObject win2;
+    public GameObject finalWin;
 
 
 
@@ -45,6 +47,16 @@ public class collisionTester : MonoBehaviour
         if (collision.collider.gameObject == win)
         {
             SceneManager.LoadScene(1);
+        }
+
+
+        if (collision.collider.gameObject == win2)
+        {
+            SceneManager.LoadScene(2);
+        }
+        if (collision.collider.gameObject == finalWin)
+        {
+            SceneManager.LoadScene(3);
         }
     }
 

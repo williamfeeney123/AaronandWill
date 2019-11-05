@@ -21,12 +21,12 @@ public class BoxController : MonoBehaviour
         //Check if the box is outside the scene.
         if (newPosition.y >= SceneLength)
         {
-            speed = -0.4f; //Move left.
+            speed = -0.1f; //Move left.
             newPosition = new Vector2(transform.position.x, -10f);
         }
         else if (newPosition.y <= SceneLength)
         {
-            speed = 0.4f; //Move right.
+            speed = 0.1f; //Move right.
             
 
         }
